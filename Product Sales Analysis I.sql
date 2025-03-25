@@ -1,0 +1,1 @@
+select product.product_name ,year,price from sales inner join product using(product_id); 
