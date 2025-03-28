@@ -1,0 +1,1 @@
+select employee.name,bonus.bonus from employee left join bonus using(empID) WHERE IFNULL(Bonus.bonus, 0) < 1000;
