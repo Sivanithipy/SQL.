@@ -1,0 +1,1 @@
+select name ,SUM(amount) as balance from users Inner join Transactions using(account) group by 1 having balance >10000;
